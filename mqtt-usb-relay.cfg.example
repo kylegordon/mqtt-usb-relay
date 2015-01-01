@@ -1,7 +1,7 @@
 [global]
 DEBUG = False
 LOGFILE = /var/log/mqtt-usb-relay.log
-SERIAL = /dev/ttyUSB0
+SERIAL = /dev/serial/by-id/usb-FTDI_FT232R_USB_UART_A600daY8-if00-port0
 BAUD = 2400
 MQTT_HOST = 10.8.0.1
 MQTT_PORT = 1883
