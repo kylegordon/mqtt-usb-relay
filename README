@@ -17,7 +17,7 @@ turn on relay 1
 INSTALL
 =======
 
-sudo apt-get install python-mosquitto git
+sudo apt-get install python-mosquitto python-serial git
 mkdir /etc/mqtt-usb-relay/
 git clone git://github.com/kylegordon/mqtt-usb-relay.git /usr/local/mqtt-usb-relay/
 cp /usr/local/mqtt-usb-relay/mqtt-usb-relay.cfg.example /etc/mqtt-usb-relay/mqtt-usb-relay.cfg
