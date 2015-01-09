@@ -17,6 +17,9 @@ turn on relay 1
 INSTALL
 =======
 
+The latest Mosquitto libraries are required. 
+If on Ubuntu, sudo apt-add-repository ppa:mosquitto-dev/mosquitto-ppa; apt-get update
+
 sudo apt-get install python-mosquitto python-serial git
 mkdir /etc/mqtt-usb-relay/
 git clone git://github.com/kylegordon/mqtt-usb-relay.git /usr/local/mqtt-usb-relay/
