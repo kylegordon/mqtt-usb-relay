@@ -18,8 +18,7 @@ import ConfigParser
 
 # Read the config file
 config = ConfigParser.RawConfigParser()
-#config.read("/etc/mqtt-usb-relay/mqtt-usb-relay.cfg")
-config.read("mqtt-usb-relay.cfg")
+config.read("/etc/mqtt-usb-relay/mqtt-usb-relay.cfg")
 
 # Use ConfigParser to pick out the settings
 DEBUG = config.getboolean("global", "debug")
